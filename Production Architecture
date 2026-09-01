@@ -1,0 +1,35 @@
+                         SKYWAY
+                    WORLD IN MOTION
+                           │
+            ┌──────────────┴──────────────┐
+            │                             │
+       WEB APPLICATION                MOBILE/PWA
+            │                             │
+            └──────────────┬──────────────┘
+                           │
+                     NEXT.JS APP
+                           │
+                ┌──────────┴──────────┐
+                │                     │
+             REST API             WEBSOCKETS
+                │                     │
+                └──────────┬──────────┘
+                           │
+                    BACKEND SERVICES
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+      PostgreSQL         Redis          OpenAI
+      + PostGIS
+          │
+     ┌────┼─────────────┐
+     │    │             │
+  Flights Ships       Travel
+     │    │             │
+     └────┼─────────────┘
+          │
+    EXTERNAL PROVIDERS
+          │
+     ┌────┼─────────────┐
+     │    │             │
+ Aviation Hotels      Weather
