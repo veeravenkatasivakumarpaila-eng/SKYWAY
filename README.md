@@ -567,4 +567,24 @@ or:
 OpenAI API keys must remain server-side and must never be exposed in browser code or committed to GitHub.
 
 ---
+# ⚡ Real-Time Architecture
+
+The production architecture is designed around real-time data pipelines.
+
+```text
+External Data Provider
+        ↓
+Data Ingestion
+        ↓
+Validation
+        ↓
+Normalization
+        ↓
+PostgreSQL / PostGIS
+        ↓
+Redis Cache
+        ↓
+Real-Time WebSocket Services
+        ↓
+Skyway Web Application
 
