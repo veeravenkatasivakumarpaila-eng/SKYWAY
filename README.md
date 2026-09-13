@@ -1,6 +1,6 @@
  ✈️ SKYWAY — World in Motion
 
-Global Travel, Transportation & Real-Time Intelligence Platform
+Global Travel,  Transportation & Real-Time Intelligence Platform
 
 Skyway is a next-generation global travel and transportation platform designed to connect real-time transportation intelligence with destination discovery, trip planning, accommodation, booking and AI-powered travel assistance.
 
